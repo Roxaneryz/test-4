@@ -11,7 +11,7 @@ import {
 } from 'redux-persist'
 import storage from 'redux-persist/lib/storage'
 
-import { currencyReducer } from './currency/currencySlise'
+import { currencyReducer } from './currency/currencySlice'
 
 const persistConfig = {
   key: 'root',
